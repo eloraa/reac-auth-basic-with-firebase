@@ -9,13 +9,14 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root/>,
-    basename: '/react-auth-basic-with-firebase/',
     children: [{
       path: '/',
       element: <Login/>
     }]
   },
-]);
+], {
+  basename: '/'
+});
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />
