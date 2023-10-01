@@ -35,7 +35,7 @@ export const Login = () => {
     }
   return (
     <div className='h-full border border-[#111] flex flex-col'>
-        <div className="h-[40%] bg-cover bg-center bg-no-repeat border-[1rem] border-[#111] relative" style={{backgroundImage: 'url(/124943.png)'}}>
+        <div className="h-[40%] bg-cover bg-center bg-no-repeat border-[1rem] border-[#111] relative" style={{backgroundImage: 'url(./124943.png)'}}>
             {user && 
             <div className="absolute -bottom-[1.5rem] translate-y-2/4 text-center w-full flex justify-between">
                 <div>
