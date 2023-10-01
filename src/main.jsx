@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     }]
   },
 ], {
-  basename: './'
+  basename: '/react-auth-basic-with-firebase/'
 });
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
